@@ -44,9 +44,9 @@ class Main{
         System.out.print("Enter size of colums : ");
         int c = sc.nextInt();
         System.out.println("Enter elements : ");
-        int arr[][] =   Linear.getArray(r,c);
+        int a[][] =   Linear.getArray(r,c);
          System.out.print("Enter Key : ");
          int key = sc.nextInt();
-         System.out.println("key is found at index "+Arrays.toString(Linear.search(arr, key,r,c)));
+         System.out.println("key is found at index "+Arrays.toString(Linear.search(a, key,r,c)));
     }
 }
